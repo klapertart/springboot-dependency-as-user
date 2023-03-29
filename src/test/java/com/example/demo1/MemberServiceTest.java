@@ -19,10 +19,9 @@ public class MemberServiceTest {
     private MemberService memberService;
 
     @Test
-    @Disabled
     public void testSave(){
         Member member = Member.builder()
-                .name("Hanna")
+                .name("Hasna")
                 .build();
 
         final Member save = memberService.save(member);
