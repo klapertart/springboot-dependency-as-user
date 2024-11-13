@@ -21,7 +21,7 @@ public class MemberServiceTest {
     @Test
     public void testSave(){
         Member member = Member.builder()
-                .name("Hasna")
+                .name("Hamka")
                 .build();
 
         final Member save = memberService.save(member);
